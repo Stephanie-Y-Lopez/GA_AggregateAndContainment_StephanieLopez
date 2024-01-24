@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GA_AggregateAndContainment_StephanieLopez
 {
+    //Step 2
     internal class Car
     {
         public string Make { get; set; }

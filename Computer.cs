@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GA_AggregateAndContainment_StephanieLopez
 {
+    //Step 1
     internal class Computer
     {
         // computer components:

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GA_AggregateAndContainment_StephanieLopez
 {
+    //Step 2
     internal class Suspension
     {
         public float _FrontBalance { get; set; }
