@@ -15,6 +15,20 @@ namespace GA_AggregateAndContainment_StephanieLopez
             _hp = hp;
         }
 
-        public int Hp { get => _hp; set => _hp = value; }
+        public int Hp 
+        { 
+          get => _hp;
+            set
+            {
+                if(value >= 50)
+                {
+                    _hp = value;
+                }
+                else
+                {
+                    Console.WriteLine("Please eneter valid Horse Power.");
+                }
+            }
+        }
     }
 }

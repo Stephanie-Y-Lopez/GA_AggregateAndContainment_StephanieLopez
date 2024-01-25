@@ -29,6 +29,28 @@
             GoKart goKartToad = new GoKart(toad);
             Console.WriteLine(goKartToad);
             Console.WriteLine("");
+
+            //Part4
+            Console.WriteLine("Before our try catch");
+            goKartToad.TweakEngine(-50);
+            try
+            {
+                Console.WriteLine("We reached this line of code");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine("This is after our try catch");
+            Engine e = new Engine(100);
+            Console.WriteLine(e.Hp);
+            ChangeEngineHP(e);
+            Console.WriteLine(e.Hp);
+        }
+
+        public static void ChangeEngineHP(Engine e)
+        {
+            e.Hp = 1000;
         }
 
         public static void ComputerExample()
